@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: gssp-test-pr-1
+  description: Service gssp-test-pr-1
+
+  annotations:
+    github.com/project-slug: Backstage-GoldenImage/gssp-test-pr-1
+    backstage.io/techdocs-ref: dir:.
+    jenkins.io/job-full-name: gssp-test-pr-1
+    argocd/app-name: gssp-test-pr-1
+    backstage.io/kubernetes-id: gssp-test-pr-1
+    backstage.io/kubernetes-namespace: default
+
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
